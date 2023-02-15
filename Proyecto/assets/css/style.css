@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Navegador*/
+.navegador {
+    width: 100%;
+    background-color: #024959;
+    text-align: end;
+    padding: 45px;
+    justify-content: space-around;
+}
+a:hover {
+    background-color: #3CA6A6;
+    padding: 5px;
+    border-radius: 5px;
+    color: #024959;
+}
+.navegador .fa-bars{
+    display: none;
+}
+.navegador ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 20px;
+}
+.navegador > ul > li{
+    display: inline-block;
+}
+    
+/*Inicio*/
+.imagen1 {
+    background-image: url(/images/imagen\ box\ 1.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen1-info {
+    color: #000;
+    font-size: 30px;
+    text-align: center;
+}
+.btn {
+    margin-top: 10px;
+    padding: 5px 25px;
+    background-color: #3CA6A6;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    font-weight: bold;     
+}
+.separata{
+    padding: 20px;
+    background-color: #F2E3D5;
+    text-align: center;
+    padding: 45px;
+    font-size: 20px;
+}
+.imggaleriafb {
+    width: 100%;
+}
+.subtituloinicio {
+    text-align: center;
+    color: #000;
+    padding: 50px;
+    background-color: #F2E3D5;
+}
+.divsub {
+    padding: 50px;
+    background-color: #F2E3D5;
+    text-align: center;
+    font-size: 20px;
+}
+.imagenredes {
+    width: 50px;
+    height: 50px;
+}
+.botoninscripcion {
+    padding: 50px;
+    text-align: center;
+    background-color: #F2E3D5;
+}
+.copyright{
+    text-align: center;
+    background-color: #3CA6A6;
+    font-size: 25px;
+    padding: 5px;
+}
+.divfooter {
+    padding: 20px;
+    width: 100%;
+    background-color: #3CA6A6;
+    font-size: 25px;
+    text-align: center;
+}
+/*BOX*/
+.contenedor-box {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color: #F2E3D5
+}
+.tarjetaProfe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+.contenedor_info-pbo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.info-profebox {
+    text-align: center;
+    border: solid;
+    border-radius: 8px;
+    margin: 30px;
+    background-color: #3CA6A6;
+    width: 500px;
+    padding: 50px;
+}
+.titulo-infoprofebox {
+    padding: 10px;
+}
+.subtitulo-infoprofebox {
+    padding: 10px;
+}
+/*Contacto*/
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3CA6A6;
+    padding: 20px;
+}
+.ug-h3 {
+    text-align: center;
+    font-size: 20px;
+    background-color: #F2E3D5;
+}
+.mapa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2E3D5;
+}
+.boton {
+    font-size: large;
+    padding: 5px;
+    margin: 5px;
+}
+/*Horarios*/
+table { 
+    border-collapse: collapse;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+th,td{
+border:solid 1px ;
+padding: 10px;
+}
+
+th {
+color: #F5F3F0;
+background-color: #3CA6A6;
+}
+tr {
+color: #F5F3F0;
+background-color: #3CA6A6;
+}
+.divtabla {
+padding: 10px;
+display: flex;
+flex-direction: column;
+text-align: center;
+background-color: #F2E3D5;
+}
+.textohorario {
+text-align: center;
+background-color: #F2E3D5;
+padding: 50px;
+}
+/*Nosotros*/
+.videonosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: #3CA6A6;
+    border: solid;
+}
+.texto_video {
+    padding-top: 50px;   
+}
+.subtitulo_nosotros { 
+    text-align: center;
+    padding-bottom: 10px;
+    color: #000;
+    background-color: #F2E3D5;
+}
+.profes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #F2E3D5
+}
+.profe-modifier {
+    padding-bottom: 50px;
+}
+.profe1 {
+    width: 450px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    gap: 10px;
+    border: solid;
+    border-radius: 8px;
+    background-color: #3CA6A6;
+}
+.profe1__img {
+    width: 200px;
+    margin: 10px; 
+}
+/*GRID*/
+
+
+
